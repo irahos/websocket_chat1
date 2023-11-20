@@ -60,7 +60,9 @@ body {
 }
 
 .message {
+  word-wrap: break-word;
   margin-bottom: 10px;
+  max-width: 65%;
   width: fit-content;
   padding-left: 10px;
   padding-right: 10px;
@@ -69,11 +71,13 @@ body {
 }
 
 .message-left {
-  background-color: #ffccf9;
+  background-color: #FFCCF9;
   color: #BFFCC6;
+  border: 1px solid #C4FAF8;
 }
 
 .message-right {
   margin-left: auto;
-  background-color: #c4faf8;
+  background-color: #C4FAF8;
+  border: 1px solid #FFCCF9;
 }
