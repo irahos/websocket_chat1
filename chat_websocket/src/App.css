@@ -17,6 +17,7 @@ body {
 }
 
 .input {
+  width: 100%;
   background-color: #DBFFD6;
   padding: 8px;
   color: #FF9CEE;
@@ -43,7 +44,7 @@ body {
 
 .chat {
   margin-top: 20px;
-  width: 500px;
+  width: 80vw;
   min-height: 80vh;
   height: fit-content;
   display: flex;

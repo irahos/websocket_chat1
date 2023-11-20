@@ -22,8 +22,8 @@ function App() {
  }
 
  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-   e.preventDefault();
-   const newMessage: Message = { type: 'message', content: message };
+    e.preventDefault();
+    const newMessage: Message = { type: 'message', content: message };
     if (message.trim()) {
       socket.send(JSON.stringify(newMessage));
       setMessage('');
@@ -47,7 +47,7 @@ function App() {
  return (
     <div className='chat'>
       <form onSubmit={handleSubmit} className='form'>
-       <input
+        <input
           className='input'
           type="text"
           placeholder="Enter your message"
