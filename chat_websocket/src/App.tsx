@@ -7,7 +7,7 @@ interface Message {
  content: string;
 }
 
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('wss://chat-backend-s0kz.onrender.com/');
 
 function App() {
  const [messages, setMessages] = useState<Message[]>([]);
